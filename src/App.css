@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.App-Component{
+  margin: 100px auto 0 auto;
+  width: 500px;
+}
+
+.App-logo {
+  height: 30vmin;
+  width: 30vmin;
+  border-radius: 100%;
+  animation: App-logo-spin infinite 20s linear; 
+  pointer-events: none;
+}
+
+/*animation: App-logo-spin infinite 20s linear; 
+  pointer-events: none;*/
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
